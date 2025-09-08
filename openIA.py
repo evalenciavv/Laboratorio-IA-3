@@ -11,6 +11,6 @@ async def postOpenAI(inputTweet):
     return response.output_text
 
 client = OpenAI(
-    ##api_key = "fe"
+
     )
 
